@@ -1,0 +1,155 @@
+.wrap
+	width: 1100px
+	left: 50%
+	margin-left: -550px
+	position: relative
+	display: flex
+	justify-content: space-between
+
+.header
+	width: 100%
+	height: 115px
+	background: rgba(212,228,239,1)
+	background: -moz-linear-gradient(top, rgba(212,228,239,1) 0%, rgba(212,228,239,1) 23%, rgba(134,174,204,1) 100%)
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(212,228,239,1)), color-stop(23%, rgba(212,228,239,1)), color-stop(100%, rgba(134,174,204,1)))
+	background: -webkit-linear-gradient(top, rgba(212,228,239,1) 0%, rgba(212,228,239,1) 23%, rgba(134,174,204,1) 100%)
+	background: -o-linear-gradient(top, rgba(212,228,239,1) 0%, rgba(212,228,239,1) 23%, rgba(134,174,204,1) 100%)
+	background: -ms-linear-gradient(top, rgba(212,228,239,1) 0%, rgba(212,228,239,1) 23%, rgba(134,174,204,1) 100%)
+	background: linear-gradient(to bottom, rgba(212,228,239,1) 0%, rgba(212,228,239,1) 23%, rgba(134,174,204,1) 100%)
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d4e4ef', endColorstr='#86aecc', GradientType=0 )
+	
+	&-logo
+		margin-top: 40px
+		font-size: 25pt
+		color: rgba(87, 87, 87, 255)
+		font-weight: bold
+		text-shadow: 0px 1px 3px black
+
+		&:after
+			content: ''
+			display: block
+			position: absolute
+			width: 2px
+			height: 40px
+			background-color: #575757
+			margin-left: 150px
+			margin-top: -35px
+			border-radius: 50%
+		&-link
+			text-decoration: none
+
+	&-menu
+		margin-top: 45px
+		margin-left: 25px
+		font-size: 16pt
+		color: rgba(87, 87, 87, 255)
+		font-weight: 700
+		
+		
+	&-menu-list
+		list-style-type: none
+		
+		&-link
+			text-decoration: none
+			display: inline-block
+			width: 120px
+			text-align: center
+			padding-top: 5px
+			padding-bottom: 5px
+			border-radius: 10px
+			box-shadow: 0 0 10px rgba(0,0,0,0.5)
+			transition: 0.5s
+			position: relative
+
+			&:after
+				content: ''
+				width: 0px
+				height: 4px
+				background: #fff
+				position: absolute
+				top: 66px
+				transition: 0.3s
+				border-radius: 20px
+				right: 0
+				
+			&:hover:after
+				width: 60px
+				transform: translateX(-100%)
+				
+				
+				
+			&:before
+				content: ''
+				width: 0px
+				height: 4px
+				border-radius: 20px
+				background: #3D218B
+				position: absolute
+				top: 66px
+				left: 0px
+				transition: 0.3s
+				
+			&:hover:before
+				width: 60px
+				transform: translateX(100%)
+				
+				
+					
+			
+			&:hover
+				background-color: #88AFCC
+				transition: 0.3s
+				color: #fff
+			
+			
+
+	& li
+		display: inline
+		margin-right: 20px
+		width: 90px
+
+
+	&-social-main
+		display: flex
+		align-items: flex-end
+	&-social
+		background-color: #fff
+		width: 35px
+		height: 35px
+		font-size: 22px
+		justify-content: center
+		align-items: center
+		display: flex
+		border-radius: 50%
+		color:  #575757
+		box-shadow: 0 0 20px rgba(0,0,0,0.5)
+		transition: 0.3s
+		&:last-child
+			margin-right: 0
+		
+		&-icon
+			text-decoration: none
+			margin-right: 10px
+
+.icon_1:hover
+	background-color: #4267B2
+	color: #fff
+	transition: 0.3s
+.icon_2
+	background-color: #575757
+	color: #fff
+	&:hover
+		background-color: #fff
+		color: #1DA1F2
+		transition: 0.3s
+.icon_3:hover
+	background-color: #F8220F
+	color: #fff
+	transition: 0.3s
+
+
+	
+
+
+	
+	
